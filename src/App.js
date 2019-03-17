@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header/header';
+// import Process from './components/process/process';
+// import Projects from './components/projects/projects';
+// import Testimonials from  './components/testimonials/testimonials';
+// import About from './components/about/about';
+// import ContactUs from './components/contactus/contactus';
+import Footer from './components/footer/footer';
+import resumeData from './resumeData';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header resumeData={resumeData}/>
+        {/* <Process resumeData={resumeData}/>
+        <Projects resumeData={resumeData}/>
+        <Testimonials resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/> */}
+        <Footer resumeData={resumeData}/>
       </div>
     );
   }
