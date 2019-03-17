@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -7,47 +7,6 @@ export default class Header extends Component {
       <React.Fragment>
       {/*generated code*/}
       <header>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-            <div class="container">
-                <div class="navbar-translate">
-                    <Link className="navbar-brand" to="/">
-                        UX/UI Developer
-                    </Link>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p>Home</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p>Process</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p>Projects</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p>About Me</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                            <p>Testimonials</p>
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                            <p>Contact</p>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <div className="row banner container">
             <div className="banner-text">
                 <h1 className="responsive-headline">{resumeData.name}.</h1>
@@ -76,75 +35,3 @@ export default class Header extends Component {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import './NavBar.css';
-// import {Link} from 'react-router-dom';
-
-// function NavBar() {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-//         <div class="container">
-//             <div class="navbar-translate">
-//                 <Link className="navbar-brand" to="/">
-//                     UX/UI Developer
-//                 </Link>
-//                 <ul class="navbar-nav">
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                             <p>Home</p>
-//                         </a>
-//                     </li>
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                             <p>Process</p>
-//                         </a>
-//                     </li>
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                             <p>Projects</p>
-//                         </a>
-//                     </li>
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                             <p>About Me</p>
-//                         </a>
-//                     </li>
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                         <p>Testimonials</p>
-//                     </a>
-//                     </li>
-//                     <li class="nav-item">
-//                         <a class="nav-link" href="#">
-//                         <p>Contact</p>
-//                     </a>
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     </nav>
-//   );
-// }
-
-// export default NavBar;
-
-

@@ -22,6 +22,32 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
+      "process":[
+        {
+          "name":"User Interviews & Surveys",
+          "description":"Talking to people and gathering data to help me understand the problem or discover new ones."
+        },
+        {
+          "name":"Mapping & Ideation",         
+          "description":"This is when connections are starting to form and ideas start to take shape."
+        },
+        {
+          "name":"Competitive Analysis",
+          "description":"Before a product or company can move in any direction they need to know where the stand and where they are going."
+        },
+        {
+          "name":"Sketching & Wireframes",
+          "description":"Creating low fidelity sketches and wireframes helps to understand and discover problems early and solve them quickly with little cost."
+        },
+        {
+          "name":"Architecture & User Flows",
+          "description":"Group into logical pillars. Map out product features for each pillar to identify gaps, opportunities, and feature bloat."
+        },
+        {
+          "name":"Prototyping & User Testing",
+          "description":"Increasing the fidelity and creating interactivity allowing me to capture user behavior, pain points, motivations, and needs from contextual inquiries."
+        }
+      ],
     "aboutme":"I'm Cool",
     "address":"Chicago",
     "website":"https://shawncfoster-portfolio.herokuapp.com/index.html",
@@ -69,26 +95,26 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "portfolio":[
+    "projects":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/projects/phone.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/projects/project.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/projects/project2.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/projects/phone.jpg"
       }
     ],
     "testimonials":[
