@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header/header';
-// import Process from './components/process/process';
+import Process from './components/process/process';
 // import Projects from './components/projects/projects';
 // import Testimonials from  './components/testimonials/testimonials';
 // import About from './components/about/about';
@@ -13,8 +13,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={resumeData}/>
-        {/* <Process resumeData={resumeData}/>
-        <Projects resumeData={resumeData}/>
+        <Process resumeData={resumeData}/>
+        {/* <Projects resumeData={resumeData}/>
         <Testimonials resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/> */}
